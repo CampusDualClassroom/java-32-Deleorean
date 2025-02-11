@@ -8,7 +8,7 @@ import java.io.PrintWriter;
 public class Exercise32 {
 
     public static void main(String[] args) {
-        printToFile(generateStringToSave(generateUserInputToSave()));
+        printToFile(generateStringToSave(null));
     }
 
     public static String generateStringToSave(String string) {
